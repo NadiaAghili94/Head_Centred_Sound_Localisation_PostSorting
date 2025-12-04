@@ -12,7 +12,7 @@ late_post_win = [0.25, 0.4];
 
 min_trials = 100;             % minimum pooled trials to fit models
 
-gate_mode = 'full'; % Gate mode: 'paper'/'full'/'strict'/'permissive' ; paper = Stephen's
+gate_mode = 'full'; % Gate mode: 'paper'/'full' paper = Stephen's
 
 alpha_gate = 0.05;            
 
@@ -262,6 +262,7 @@ text(1.5, ymax_ego * 1.05, sprintf('Pref = %.3f', ModelPref(1)), ...
 set(ax, 'XTick', [1 2], 'XTickLabel', {'Head','World'});
 ylabel('GLM model fit');
 title('Head-centred simulated unit');
+
 
 
 
